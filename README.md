@@ -1,3 +1,5 @@
+
+
 # Channel-Auto-Post-Bot
 A channel auto post telegram bot.
 
@@ -11,7 +13,7 @@ cd Channel-Auto-Post-Bot
 python3 -m venv venv
 . ./venv/bin/activate
 pip3 install -r requirements.txt
-# <Create Variables appropriately>
+# Create a .env file with the variables appropriately
 python3 main.py
 ```
 
@@ -30,7 +32,7 @@ python3 main.py
 - `FROM_CHANNELS` From channel ids for auto post
 - `TO_CHATS` To channel or group or chat ids for auto post
 
-> Note:- Add '-100' before channel IDs and add '-' before group IDs
+> Note:- Add '-100' before channel IDs and add '-' before groupIDs
 
 - `AS_FORWARD` (bool and optional) For forward or copy
 - `REPLY_MARKUP` (bool and optional) For copy reply markup
